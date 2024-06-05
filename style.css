@@ -1,0 +1,265 @@
+@font-face {
+    font-family: open_sans;
+    src: url(opne_sans/static/OpenSans-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.parent_div {
+    display: flex;
+}
+
+.left_div {
+   width: 469px;
+   height: 832px;
+}
+
+.right_div {
+    width: 340px;
+    height: 372px;
+    margin-left: 340px;
+    margin-top: 230px;
+}
+
+h4 {
+    font-family: open_sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    margin: 0;
+}
+
+.paragraph {
+    font-family: open_sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B7280;
+    margin: 0;
+}
+
+.button_div {
+    display: flex;
+}
+
+.sing_in_button {
+    background-color: #4285F4;
+    width: 281px;
+    height:48px ;
+    border: none;
+    margin-top: 36px;
+    border-radius: 4px;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    background-image: url(gmail_icon.png)
+}
+
+.gmail_icon {
+    background-image: url(gmail_icon.png);
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 43px;
+}
+
+.button_paragraph {
+    font-family: open_sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 11px;
+}
+
+.fb_icon_div {
+    margin-left: 12px;
+}
+
+.fb_icon {
+    margin-top: 36px;
+    border-radius: 2px, 0px, 0px, 2px;
+}
+
+.horizontal_line {
+    color: #E5E7EB;
+    width: 340px;
+    height: 1px;
+    margin-top: 22px;
+}
+
+.input_email {
+    width: 340px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
+    margin-top: 22px;
+}
+
+.input_email::placeholder {
+    color: #D1D5DB;
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 40px;
+    background-image: url(input_icon.png);
+    background-repeat: no-repeat;
+    padding-top: 16px;
+}
+
+.forget_password {
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6B7280;
+    margin-top: 24px;
+}
+
+.a {
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6D58BA;
+  
+}
+
+.continue_button {
+    width: 340px;
+    height: 48px;
+    background-color: #724DFF;
+    border-radius: 6px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+}
+
+.paragraph2 {
+    display: inline-block;
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6B7280;
+    margin-top: 24px
+}
+
+.last_paragraph {
+    display: inline-block;
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6B7280;
+    margin-top: 24px
+}
+
+.anchor {
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6D58BA;
+}
+
+
+@media screen  and (max-width:600px) {
+   
+    .parent_div {
+        position: relative;
+    }
+
+    .right_div {
+        width: 312px;
+        height: 363px;
+        margin: auto;
+        margin-top: 181.5px !important;
+    }
+
+    .left_div {
+        display: none;
+    }
+
+    h4 {
+        font-family: open_sans;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27.24px;
+        text-align: center;
+        color:#1F2937;
+    }
+
+    .button_div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .paragraph {
+        font-family: open_sans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 12px;
+        text-align: center;
+        color:#6B7280;
+    }
+
+    .forget_password {
+        margin-top: 12px;
+    }
+
+    .sing_in_button {
+        width:253px;
+        height:48px;
+        margin-top: 36px;
+    }
+
+    .fb_icon {
+        border-radius: 50% !important;
+        margin-top: 36px;
+    }
+
+    .input_email {
+        width: 312px;
+        height: 48px;
+        border-radius: 50px;
+        margin-top: 12px;
+    }
+
+
+    .continue_button_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .continue_button {
+        width: 121px;
+        height: 48px;
+        background-color: #724DFF;
+        font-family: open_sans;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+   
+    .horizontal_line {
+        display: none;
+    }
+
+    .paragraph2 {
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+
+    .last_paragraph {
+        margin-top: 2px;
+    }
+}
