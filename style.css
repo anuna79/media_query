@@ -23,7 +23,8 @@ body {
 .right_div {
     width: 340px;
     height: 372px;
-    margin-left: 340px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 230px;
 }
 
